@@ -1,5 +1,9 @@
 #Composer Dependency Files  
 assignment_01-2/Vendors/*
+assignment_01-2/composer.lock
+
 
 #Code Coverage Report
-assignment_01-2/Report/*
+assignment_01-2/report/*
+assignment_01-2/Tests/report/*
+assignment_01-2/Tests/code_coverage_report/*
