@@ -11,5 +11,5 @@ ini_set('display_errors','On');
 ini_set('display_startup_errors','On');
 
 // Autload project level bootstrap file
-require_once('/Library/Server/Web/Data/Sites/WebClass/442_PHP/jasonB_UW-PHP/assignment_01-2/bootstrap.php' );
+require_once __DIR__.'/../bootstrap.php';
 ?>

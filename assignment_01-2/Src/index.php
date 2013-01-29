@@ -10,7 +10,7 @@ if ($test_mode == "on"){
 	error_reporting(E_ALL);
 }
 
-echo 'hi<br/>';
+// echo  dirname( __FILE__ );
 
 require_once '../bootstrap.php';
 // require_once ('vehicles/Car.php');

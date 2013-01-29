@@ -2,7 +2,7 @@
 
 namespace vehicles;
 
-require_once '/Library/Server/Web/Data/Sites/WebClass/442_PHP/jasonB_UW-PHP/assignment_01-2/Tests/test_bootstrap.php';
+require_once __DIR__.'/../../bootstrap.php';
 
 /*
 * Truck class represents trucks as subclass of Vehicle class

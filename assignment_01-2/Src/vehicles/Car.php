@@ -2,7 +2,7 @@
 
 namespace vehicles;
 
-require_once ('/Library/Server/Web/Data/Sites/WebClass/442_PHP/jasonB_UW-PHP/assignment_01-2/bootstrap.php');
+require_once __DIR__.'/../../bootstrap.php';
 
 /*
 * Car Class represents cars as subclass of Vehicle class

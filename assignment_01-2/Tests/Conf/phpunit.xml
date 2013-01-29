@@ -4,12 +4,13 @@
 	>
 	<testsuites>
 		<testsuite name="Assignment 1-2 Test Suite">
-			<directory>../*</directory>
+			<directory>../Src</directory>
 		</testsuite>
 	</testsuites>
+	
 	<filter>
-	  <whitelist>
-		<directory>../src</directory>
-	  </whitelist>
+		<blacklist>
+			<directory>../../Vendors</directory>
+		</blacklist>
 	</filter>
 </phpunit>
