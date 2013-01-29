@@ -1,27 +1,42 @@
 WebLAMP 442 Assignment 1-2   README
 ============
 
+
 1. Demonstrates STRATEGY Design Pattern
 2. Demonstrates PHP Unit Test
 
 ---
+Server Environment Requirements
+--------
+*	[PHP Composer](http://getcomposer.org/ "Title")
+	*	AUTOLOADs Classes 
+	*	Package Dependency Manager
+	
+---
 
+File Structure
+--------
 *	Src/
 	*	index.php - Test File
-	*	vehicles/
+	*	Vehicle/
 		 *	Vehicle.php
 		 *	VehicleInterface.php
 		 *	Car.php
 		 *	Civic.php
 		 *	Truck.php
-*	Test/
+*	Tests/
+	*	test_boostrap.php (Sets Test Error Environment)
+	*	Conf/
+		*	phpunit.xml  (Unit Testing Config) 
 	*	Src/
-		*	vehicles/
-			 *	Vehicle.php
-			 *	VehicleInterface.php
-			 *	Car.php
-			 *	Civic.php
-			 *	Truck.php
+		*	Vehicle/
+			 *	CarTest.php
+			 *	CivicTest.php
+			 *	TruckTest.php
+	*	_[[code\_coverage\_report]]_/ - _.gitignored_ 
+		*	_(Used for Unit Testing Output)_ 
+*	_[[Vendors]]_/ -  _.gitignored_
+	*	_(Used for Composer Autoload and Packages)_
 *	composer.json
 *	bootstrap.php
 *	README.md (this document)
