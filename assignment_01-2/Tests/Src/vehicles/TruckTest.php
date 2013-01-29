@@ -1,0 +1,60 @@
+<?php
+
+namespace vehicles;
+
+require_once '/Library/Server/Web/Data/Sites/WebClass/442_PHP/jasonB_UW-PHP/assignment_01-2/Tests/test_bootstrap.php';
+
+/**
+* unit test code to test Car object class
+*/
+class TruckTest extends \PHPUnit_Framework_TestCase {
+
+	/**
+	 * tests Truck::getNumberOfDoors
+	 */
+	public function testGetNumberOfDoors() {
+		$vehicle_test = new Truck();
+		$doors_num = 2;
+		$this->assertEquals($vehicle_test->getNumberOfDoors(), $doors_num);
+	} 
+
+	/*
+	 * tests Truck::getName
+	 */
+	public function testGetName() {
+		$vehicle_test = new Truck();
+		$_name = "Truck";
+		$this->assertEquals($vehicle_test->getName(), $_name);
+	}
+
+	/**
+	 * tests Truck::getYear
+	 */
+	public function testGetYear() {
+		$vehicle_test = new Truck();
+		$_year = 1974;
+		$this->assertEquals($vehicle_test->getYear(),$_year);
+	}
+
+	/**
+	 * tests Truck::setYear
+	 */
+	public function testSetYear() {
+	   $vehicle_test = new Truck();
+	   $_year = 2013;
+	   $vehicle_test->setYear($_year);
+	   $this->assertEquals($vehicle_test->getYear(), $_year);
+	}
+
+	/**
+	 * tests Truck::honk
+	 */
+	public function testHonk() {
+	   $vehicle_test = new Truck(); 
+	   $_honk = "   ";
+	   $this->assertEquals($vehicle_test->honk(), $_honk);
+	}
+
+}//END Class CarTest
+
+?>
