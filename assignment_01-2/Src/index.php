@@ -10,8 +10,7 @@ if ($test_mode == "on"){
 	error_reporting(E_ALL);
 }
 
-// echo  dirname( __FILE__ );
-
+//Bootstap Class Map 
 require_once __DIR__ . '/../bootstrap.php';
 
 
