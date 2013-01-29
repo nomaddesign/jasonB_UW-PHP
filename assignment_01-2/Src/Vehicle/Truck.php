@@ -1,34 +1,38 @@
 <?php
 
-namespace vehicles;
+namespace Truck;
 
 require_once __DIR__.'/../../bootstrap.php';
 
 /*
-* Car Class represents cars as subclass of Vehicle class
-* Sets $_numberOfDoors, $_name and $_year of Car
+* Truck class represents trucks as subclass of Vehicle class
 * implemento honk(), getNumberOfDoors() & getName() methods
+* Sets $_numberOfDoors, $_name and $_year of Truck
 */
-class Car extends Vehicle implements VehicleInterface {
+class Truck extends \Vehicle\Vehicle implements \VehicleInterface{
 	
 	/**
 	* Number of doors
 	* @var int
 	*/
-	var $_numberOfDoors = 4;
+	var $_numberOfDoors = 2;
 	
 	/**
 	* Name of vehicle 
 	* @var string
 	*/
-	var $_name = "Car";
+	var $_name = "Truck";
 	
 	/**
 	* Model Year of vehicle 
 	* @var int
 	*/
-	var $_year = 2001;
+	var $_year = 1974;
 	
+	/**
+	* Return vehicle honk sound
+	* return string
+	*/
 	public function honk(){
 		return "   ";
 	}
@@ -65,6 +69,6 @@ class Car extends Vehicle implements VehicleInterface {
 	   $this->_year = $yr;
 	}
 	
-}// END Class Car 
+}// END Class Truck
 
 ?>

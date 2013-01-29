@@ -1,6 +1,6 @@
 <?php
 
-namespace vehicles;
+namespace Civic;
 
 require_once __DIR__.'/../../bootstrap.php';
 
@@ -9,7 +9,7 @@ require_once __DIR__.'/../../bootstrap.php';
 * Sets $_numberOfDoors, $_name and $_year of Car
 * implemento honk()  method
 */
-class Civic extends Car implements VehicleInterface {
+class Civic extends \Car\Car implements \VehicleInterface {
 
 	/**
 	* Number of doors

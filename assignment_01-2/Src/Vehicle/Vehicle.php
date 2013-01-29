@@ -1,6 +1,6 @@
 <?php
 
-namespace vehicles;
+namespace Vehicle;
 
 require_once __DIR__.'/../../bootstrap.php';
 /**

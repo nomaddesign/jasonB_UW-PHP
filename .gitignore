@@ -7,3 +7,6 @@ assignment_01-2/composer.lock
 assignment_01-2/report/*
 assignment_01-2/Tests/report/*
 assignment_01-2/Tests/code_coverage_report/*
+
+#Mac OSX .DS_Store files
+.DS_Store
