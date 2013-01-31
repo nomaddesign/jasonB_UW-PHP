@@ -2,6 +2,9 @@ WebLAMP 442 Assignment 1-2   README
 ============
 
 
+***NOTE JAY pointed out I need to modify the "VAR" variables in the Car, Civic, Vehicle and Truck classes to work as protected ****  
+--------
+
 1. Demonstrates STRATEGY Design Pattern
 2. Demonstrates PHP Unit Test
 
